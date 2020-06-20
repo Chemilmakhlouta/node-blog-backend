@@ -12,9 +12,9 @@
   "author": "Chemil Makhlout",
   "license": "ISC",
   "dependencies": {
-    "apollo-server-koa": "^2.14.4",
-    "graphql-tools": "^6.0.9",
+    "apollo-server-koa": "^2.15.0",
+    "graphql-tools": "^6.0.10",
     "koa": "^2.12.1",
-    "moment": "^2.26.0"
+    "moment": "^2.27.0"
   }
 }
