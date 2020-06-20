@@ -16,13 +16,31 @@ Give examples
 
 ### Installing
 Install node: https://nodejs.org/en/download/current/
+Download GraphQL Playground chrome extension: https://chrome.google.com/webstore/detail/graphql-playground-for-ch
 
 After installing node run the folowing command to install relevant dependancies:
 npm i -S apollo-server-koa graphql-tools koa moment
 
 To run:
 node app
- 
+
+To test that it is running correctly:
+
+Open GraphQL playground
+
+Copy your server's address from the terminal into GraphQL playground
+
+Run Query
+```javascript
+{
+  trendingPosts{
+    image
+  }
+}
+```
+
+![Image of test](./images/example.PNG)
+
 ## Running the tests
 
 Explain how to run the automated tests for this system
