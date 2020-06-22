@@ -19,7 +19,7 @@ Install node: https://nodejs.org/en/download/current/
 Download GraphQL Playground chrome extension: https://chrome.google.com/webstore/detail/graphql-playground-for-ch
 
 After installing node run the folowing command to install relevant dependancies:
-npm i -S apollo-server-koa graphql-tools koa moment
+npm i -S apollo-server-koa graphql-tools koa moment mysql2 knex dotenv bluebird
 
 To run:
 node app
